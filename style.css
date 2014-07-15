@@ -1,0 +1,44 @@
+.goog-te-gadget span{
+  display:none;
+}
+
+.goog-te-gadget {
+  color:rgb(246, 246, 246);
+}
+
+.goog-te-gadget select {
+  color:black;
+}
+
+.goog-te-gadget .goog-te-combo {
+  margin-top:13px;
+}
+
+#google_translate_element {
+/*  display:inline-block; */
+  float:left;
+  display:block;
+}
+
+.goog-te-banner-frame {
+  visibility: hidden;
+  height: 0px;
+}
+
+body.translated-content {
+  margin-top:-40px;
+}
+
+#translate__title {
+  float: left;
+  padding: 10px 10px 10px 15px;
+  border-left: 1px solid #dcdcdc;
+  display: block;
+}
+
+@media all and (max-width: 740px) {
+  #translate__title, #google_translate_element {
+    display:none;
+  }
+  
+}
